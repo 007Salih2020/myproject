@@ -20,5 +20,5 @@
     - uses: actions/checkout@v3
     
     - name: Build the Docker image
-      working-directory: Dockerfile
+      working-directory: deploy
       run: docker build . --file Dockerfile  
