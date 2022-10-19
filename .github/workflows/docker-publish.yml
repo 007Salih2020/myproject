@@ -21,4 +21,4 @@
     
     - name: Build the Docker image
       working-directory: Dockerfile
-      run: docker build . --file Dockerfile --tag my-app-dotnet:$(date +%s)
+      run: docker build . --file Dockerfile  
